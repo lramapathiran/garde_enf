@@ -1,6 +1,21 @@
 @import "foundation_and_overrides"; 
+// include-html-button-classes: include-html-classes;
 
-h3 { 
-	text-align: center;
+.titrepage h3
+	{ 
+	text-align: left;
 	color: blue;
+	}
+
+
+// Button
+
+
+	// We use this to set the default radius used throughout the core.
+.button {
+	button-round: $global-rounded;
+	button-font-color: black;
+	button-font-align: center;
 }
+
+	

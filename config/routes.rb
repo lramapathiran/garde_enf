@@ -1,7 +1,10 @@
 GardeEnf::Application.routes.draw do
 
+    devise_for :users
   root 'landing_page#landing'
-  
+  get '/home' => 'landing_page#landing'
+
+    
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
